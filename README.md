@@ -62,11 +62,11 @@
 
 #### some examples
 
-* Main Application.
+* Text Selection
 
 ![alt tag](https://github.com/divyanshu-rawat/TweetSelectedText/blob/master/public/snapshot/selected%20text.png)
 
-* Sample Data
+* After selecting text  
 
 ![alt tag](https://github.com/divyanshu-rawat/TweetSelectedText/blob/master/public/snapshot/tweet.png)
 
