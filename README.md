@@ -1,19 +1,11 @@
-### TweetSelectedText
 
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
-
-[![forthebadge](https://forthebadge.com/images/badges/compatibility-ie-6.svg)](https://forthebadge.com)
+![alt tag](https://github.com/divyanshu-rawat/Tweet-Selected-Text/blob/master/public/snapshot/tweet.gif)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 ##
 
-### Live Application
-
-Live Application - https://mytextsharingapplication.herokuapp.com/
+Application URL - https://mytextsharingapplication.herokuapp.com/
 
 ##
 
@@ -60,5 +52,5 @@ Live Application - https://mytextsharingapplication.herokuapp.com/
 
 ##
 
-![alt tag](https://github.com/divyanshu-rawat/Tweet-Selected-Text/blob/master/public/snapshot/tweet.gif)
+
 
