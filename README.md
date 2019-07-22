@@ -1,4 +1,5 @@
 
+
 ![alt tag](https://github.com/divyanshu-rawat/Tweet-Selected-Text/blob/master/public/snapshot/tweet.gif)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
@@ -11,11 +12,11 @@ Application URL - https://mytextsharingapplication.herokuapp.com/
 
 ### Description 
 
-* Sharing tasks and sentences from a blog to Social Networks (e.g. as Medium blog posts sentences can be shared in Twitter).
+* An application for sharing tasks & sentences from a blog/writing to Social Networks (e.g. as Medium blog posts sentences can be shared in Twitter).
 
 ##
 
-### Installation Instructions
+### Setting Up Instructions
 
 * Open a command prompt in the project's root directory.
 
