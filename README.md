@@ -1,12 +1,12 @@
 
 
-![alt tag](https://github.com/divyanshu-rawat/Tweet-Selected-Text/blob/master/public/snapshot/tweet.gif)
+![alt tag](https://github.com/divyanshu-rawat/Tweet-Selected-Text/blob/master/Asset/tweet-text.gif)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 ##
 
-Application URL - https://mytextsharingapplication.herokuapp.com/
+Application URL - https://tweet-text.herokuapp.com/
 
 ##
 
