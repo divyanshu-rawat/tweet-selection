@@ -11,8 +11,7 @@ Application URL - https://tweet-text.herokuapp.com/
 ##
 
 ### Description 
-
-* An application for sharing tasks & sentences from a blog/writing to Social Networks (e.g. as Medium blog posts sentences can be shared in Twitter).
+An application for sharing tasks & sentences from a blog/writing to Social Networks.
 
 ##
 
