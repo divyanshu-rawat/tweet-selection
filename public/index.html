@@ -1,48 +1,42 @@
-
-
 <html>
-	 <head>
-	 	<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-		<link rel="stylesheet" href="css/selection-sharer.css" />
-<!-- 		<script src = "js/tweet.js"></script> -->
-	 </head>
-	 
-	 <body>
-			 <div class = "col-lg-6" style="margin-top:5%;">
+<head>
+	<link rel="stylesheet" href="css/selection-sharer.css" />
+</head>
 
-			 <h3>What is Lorem Ipsum?</h3>
-					 	<p>
-					 		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-					 	</p>
+<body>
+	<div style="margin-top:5em; width: 60%">
+		<h2>Javascript, the bad parts, and how to avoid them?</h2>
 
-			  <h3>Why do we use it?</h3>
+		<h4>Types</h4>
+		<p>Sadly, and probably the worst choice ever made about JS, is that it’s weakly typed. Variables are untyped, only
+			values are, and what types are they ? It’s either Object, Symbol, String, Number, Boolean, Null (yeah), and
+			Undefined (yeah, undefined is a type of his own). What’s even kind of ridiculous is that when you test that your
+			variable is an object, you have to do this : </p>
+		<em> if (typeof myObject === "object" && myObject !== null)</em>
 
-					 	<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+		<p> Because your object can be of type Object, and still be null you know.
+			And this weakly thing really is a pain because without types, the code is damn obscure.</p>
 
-			  <h3>Where does it come from?</h3>
+		<h4>Numbers</h4>
+		<p> It’s terrible that numbers in javascript are double-precision floating points (i’ll talk about it in an article
+			dedicated to representations). Which means you have no integer type. What’s the problem with it ? Just watch.</p>
 
-					 	<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+		<em> Yeah, 0.1 + 0.2 is equal to 0.300…4. And well, this is terrible when you want to check 0.1 + 0.2 === 0.3
+			because, in
+			JS, it turns out it isn’t.</em>
 
-				<h3>Where can I get some?</h3>
+		<p>Once again, to explain this, i’ll have to talk a lot about how floating numbers are represented in a computer, so
+			for
+			now just know this is barely the type of the icerberg.</p>
+	</div>
+</body>
 
-					 	<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-
-
-
-
-
-
-			 </div>
-	 </body>
-
-	<script src="js/selection-sharer.js"></script>
-	<script>
-		$('p').selectionSharer();
-	</script>
-
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="js/selection-sharer.js"></script>
+<script>
+	$('p').selectionSharer();
+</script>
 
 </html>
